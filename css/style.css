@@ -129,6 +129,23 @@ body::-webkit-scrollbar {
   .gif {
     width: 80%;
   }
+  .btn-contact {
+    color: #565E64;
+  }
+  .btn-contact:hover {
+    color: #fff;
+  }
+  span {
+    opacity: 0;
+    transition: all 0.5s ease;
+    transform: translateY(50px);
+    display: inline-block;
+  }
+  span.animacion {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
   @media screen and (max-width: 1280px) {
     .perfil {
       width: 120px;
