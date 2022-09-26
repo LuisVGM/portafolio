@@ -1,3 +1,7 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 .perfil {
     width: 150px;
     height: 150px;
@@ -60,8 +64,6 @@ body::-webkit-scrollbar {
   }
 
   .contenido{
-    margin-left: 5%;
-    width: 95%;
     background-color: #000;
   }
 
@@ -100,6 +102,12 @@ body::-webkit-scrollbar {
   .w-55 {
     width: 55%;
   }
+  .w-95 {
+    width: 95%;
+  }
+  .ps-5 {
+    margin-left: 5%;
+  }
   .w-60 {
     width: 60%;
   }
@@ -114,6 +122,9 @@ body::-webkit-scrollbar {
   }
   .w-90 {
     width: 90%;
+  }
+  .gif {
+    width: 80%;
   }
   @media screen and (max-width: 1280px) {
     .perfil {
@@ -130,10 +141,7 @@ body::-webkit-scrollbar {
       }
       .barra {
         display: none;
-        width: 40%;
-        background-color: #1D1D1D;
-        position: fixed;
-        height: 100%;
+        width: 0;
       }
       #navegacion {
         display: block;
@@ -182,4 +190,5 @@ body::-webkit-scrollbar {
       .proyectos{
         width: 48%;
       }
+
   }
