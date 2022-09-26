@@ -48,11 +48,11 @@ body::-webkit-scrollbar {
     width: 55%;
   }
   .texto-about{
-    width: 70%;
+    width: 65%;
   }
   
   .imagen-about{
-    width: 30%;
+    width: 35%;
   }
 
   .barra {
@@ -64,6 +64,8 @@ body::-webkit-scrollbar {
   }
 
   .contenido{
+    margin-left: 5%;
+    width: 95%;
     background-color: #000;
   }
 
@@ -73,10 +75,11 @@ body::-webkit-scrollbar {
     padding: 0;
   }
   .myself {
-    width: 90%;
+    width: 80%;
     height: 10%;
     filter: grayscale(100%);
     border-radius: 10px;
+    float: right;
   }
   .titulo {
     font-size: 8vh;
@@ -130,6 +133,10 @@ body::-webkit-scrollbar {
     .perfil {
       width: 120px;
       height: 120px;
+    }
+    .contenido {
+      margin-left: 0;
+      width: 100%;
     }
 }
   @media screen and (max-width: 1024px) {
