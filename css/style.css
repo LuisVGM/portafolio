@@ -135,7 +135,7 @@ body::-webkit-scrollbar {
   .btn-contact:hover {
     color: #fff;
   }
-  span {
+  /*span {
     opacity: 0;
     transition: all 0.5s ease;
     transform: translateY(50px);
@@ -144,6 +144,15 @@ body::-webkit-scrollbar {
   span.animacion {
     opacity: 1;
     transform: translateY(0px);
+  }*/
+  span {
+    transition: all 0.6s ease;
+  }
+  span.animacion {
+    color: rgb(212, 5, 126);
+  }
+  span.animacionName {
+    color: rgb(27, 204, 145);
   }
 
   @media screen and (max-width: 1280px) {
